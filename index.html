@@ -14,6 +14,7 @@
     </style>
 </head>
 <body>
+
 <div class="h-screen w-full flex antialiased text-gray-800 bg-white overflow-hidden">
     <div class="flex-1 flex flex-col">
         <div class="border-b-2 p-2 flex flex-row z-20">
@@ -439,12 +440,19 @@
 
             <section class="flex flex-col flex-auto border-l">
                 <div class="chat-header px-6 py-4 flex flex-row flex-none justify-between items-center shadow">
-                    <div class="w-12 h-12 relative flex flex-shrink-0">
-                        <img class="shadow-md rounded-full w-full h-full object-cover"
-                             src="https://randomuser.me/api/portraits/women/33.jpg"
-                             alt=""
-                        />
+                    <div class="flex">
+                        <div class="w-12 h-12 mr-4 relative flex flex-shrink-0">
+                            <img class="shadow-md rounded-full w-full h-full object-cover"
+                                 src="https://randomuser.me/api/portraits/women/33.jpg"
+                                 alt=""
+                            />
+                        </div>
+                        <div class="text-sm">
+                            <p class="font-bold">Scarlett Johansson</p>
+                            <p>Active 1h ago</p>
+                        </div>
                     </div>
+
                     <div class="flex">
                         <a href="#" class="block rounded-full hover:bg-gray-200 bg-gray-100 w-10 h-10 p-2">
                             <svg viewBox="0 0 20 20" class="w-full h-full fill-current text-blue-600">
@@ -826,8 +834,6 @@ C15.786,7.8,14.8,8.785,14.8,10s0.986,2.2,2.201,2.2S19.2,11.215,19.2,10S18.216,7.
         </main>
     </div>
 </div>
-
-
 </body>
 
 </html>
